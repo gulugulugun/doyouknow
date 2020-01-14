@@ -33,7 +33,6 @@
 
   import CardBlock from "./components/CardBlock";
   import ArticleBlock from "./components/ArticleBlock";
-  import ReplyBlock from "./components/ReplyBlock";
   import AllQuestionsBlock from "./components/AllQuestionsBlock";
   import HomeBlock from "./components/HomeBlock";
   import QuestionHatBlock from "./components/QuestionHatBlock";
@@ -42,7 +41,6 @@
       components: {
           CardBlock,
           ArticleBlock,
-          ReplyBlock,
           HomeBlock,
           AllQuestionsBlock,
           QuestionHatBlock,

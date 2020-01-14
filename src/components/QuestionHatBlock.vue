@@ -54,12 +54,10 @@
 </template>
 
 <script>
-    import ReplyBlock from "./ReplyBlock";
 
     export default {
         name: "QuestionHatBlock",
         components: {
-            ReplyBlock,
         },
         props: {
             qId: "",

@@ -63,8 +63,8 @@
 
 <style scoped>
     .home-list-wrapper {
-        /*height: 688px;*/
-        max-height: 688px;
+        height: 100%;
+        /*max-height: 650px;*/
         overflow-y: auto;
 
     }

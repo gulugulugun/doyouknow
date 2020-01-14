@@ -30,13 +30,11 @@
 <script>
     import CardBlock from "./CardBlock";
     import ArticleBlock from "./ArticleBlock";
-    import ReplyBlock from "./ReplyBlock";
     export default {
         name: "AllQuestionsBlock",
         components: {
             CardBlock,
             ArticleBlock,
-            ReplyBlock,
         },
         data() {
             return {
@@ -86,7 +84,7 @@
 
 <style scoped>
     .infinite-list-wrapper {
-        height: 688px;
+        height: 600px;
         /*max-height: 615px;*/
         overflow-y: auto;
 

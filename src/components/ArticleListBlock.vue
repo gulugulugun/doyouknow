@@ -45,7 +45,6 @@
 <script>
     import CardBlock from "./CardBlock";
     import ArticleBlock from "./ArticleBlock";
-    import ReplyBlock from "./ReplyBlock";
     import QuestionHatBlock from "./QuestionHatBlock";
 
     export default {
@@ -53,7 +52,6 @@
         components: {
             CardBlock,
             ArticleBlock,
-            ReplyBlock,
             QuestionHatBlock,
         },
         created() {
